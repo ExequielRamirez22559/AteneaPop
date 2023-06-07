@@ -18,6 +18,10 @@
 
 .titulos_principal{
     padding: 20px;
+
+    a{
+        text-decoration: none;
+    }
 }
 
 
@@ -50,7 +54,7 @@
 
 .replica_funkos{
     background: #f1aaf1;
-    box-shadow: 25px 40px 0px 0px  #7a4c7a;;
+    box-shadow: 25px 40px 0px 0px  #7a4c7a;
     border-style: solid;
     border-color:#bd5fbd;
     border-radius: 30px;
@@ -59,6 +63,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration:none ;
+    
     
         &:hover{
         background-color: #bd5fbd;
@@ -81,6 +87,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 
         &:hover{
             background-color: #bd5fbd;
@@ -103,6 +110,7 @@
     display: flex;
     justify-content:center;
     align-items: center;
+    text-decoration: none;
 
         &:hover{
 

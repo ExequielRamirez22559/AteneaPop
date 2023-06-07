@@ -1,34 +1,23 @@
-
 .quienes_somos{
-    width: 100%;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.contenedor_quienes_somos{
-    width: 90%;
-    height: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-style: double;
-    border-radius: 2%;
-}
-
-
-.contenedor_parrafo{
     width: 80%;
-    height: 80%;
+    padding:15px;
+    margin-left: 8.5%;
+
+    .contenedor_quienes_somos{
+        background-color: #f1aaf1;
+        padding: 40px;
+        padding-top: 20px;
+        border-radius: 30px;
+        border-style: solid;
+        border-color:#bd5fbd;
+        box-shadow: 25px 40px 0px 0px  #7a4c7a;
+
+        p{
+            padding-top: 30px;
+            color: rgb(255 255 255);
+        }
+
+    }
 }
 
 
-.parrafo_de_nosotros{
-    padding:  2rem 2rem 0rem 8rem;
-    width: 80%;
-    height: 80%;
-    display: flex;
-    justify-content: center;
-}

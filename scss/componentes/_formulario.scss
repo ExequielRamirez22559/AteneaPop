@@ -12,6 +12,7 @@
     display: flex;
     justify-content:center;
     align-items: center;
+    border-radius: 10px;
 }
 
 form {
@@ -73,7 +74,7 @@ flex-direction: column;
         flex-direction: column;
     }
 
-
+    
 .lista_formulario{
     width: 550px;
     display: flex;
