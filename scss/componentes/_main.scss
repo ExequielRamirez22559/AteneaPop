@@ -165,6 +165,11 @@
     }
     .seccion_izquierda{
         width: 70%;
+        margin: 30px;
+    }
+
+    .replica_funkos{
+        margin: 30px;
     }
 
     h1 {
@@ -202,6 +207,7 @@
         margin-top: 200px;
     }
 
+    
 }
 
 
@@ -228,3 +234,32 @@
     width: 70%;
     }
 }
+
+
+@media screen and (max-width: 500px ){
+.seccion_derecha{
+
+    h1{
+        font-size: 25px; ;
+    }
+
+
+    h3{
+        font-size: 20px;
+    }
+}
+}
+
+@media screen and (max-width: 500px ){
+    .seccion_izquierda{
+    
+        h1{
+            font-size: 25px; 
+        }
+
+
+        h3{
+            font-size: 20px;
+        }
+    }
+    }
