@@ -1,4 +1,6 @@
 
+@import "./estilos/estilosdefuente";
+@import "./estilos/paletacolores";
 @import "./reset/reset";
 @import "./grids/grids";
 @import "./componentes/titulos";
@@ -8,8 +10,7 @@
 @import "./componentes/formulario";
 @import "./quines_somos/quienes_somos";
 @import "./trabajos/trabajos";
-
-
-
+@import "./replica_tu_funko/_replica_tu_funko.scss";
+@import "./funkoniza_mascotas/_mascotas";
 
 

@@ -1,5 +1,5 @@
 body{
-    background-color: #5cb4ca;
+    background-color: $color_fondoprincipal;
     display: grid;
     grid-template-columns: repeat(2, 1fr) minmax(300px);
     grid-template-rows:  repeat(3, 1fr) minmax(200px);

@@ -53,10 +53,10 @@
 
 
 .replica_funkos{
-    background: #f1aaf1;
-    box-shadow: 25px 40px 0px 0px  #7a4c7a;
+    background: $color_principal;
+    box-shadow: 25px 40px 0px 0px  $box_shadow_color;
     border-style: solid;
-    border-color:#bd5fbd;
+    border-color:$border_color;
     border-radius: 30px;
     width: 90%;
     height: 48%;
@@ -67,9 +67,9 @@
     
     
         &:hover{
-        background-color: #bd5fbd;
-        border-color: #f1aaf1;
-        box-shadow: 25px 40px 10px 0px  #7a4c7a;
+        background-color: $hover_color_principal;
+        border-color: $hover_border_color;
+        box-shadow: 25px 40px 10px 0px  $box_shadow_color;
     }
 
 }
@@ -77,10 +77,10 @@
 
 
 .personaliza_tu_funko{
-    background: #f1aaf1;
-    box-shadow: 25px 40px 00px 0px  #7a4c7a;
+    background: $color_principal;
+    box-shadow: 25px 40px 00px 0px  $box_shadow_color;
     border-style:solid;
-    border-color: #bd5fbd;
+    border-color: $border_color;
     border-radius: 30px;
     width: 90%;
     height: 100%;
@@ -90,9 +90,9 @@
     text-decoration: none;
 
         &:hover{
-            background-color: #bd5fbd;
-            border-color: #f1aaf1;
-            box-shadow: 25px 40px 10px 0px  #7a4c7a;
+            background-color: $hover_color_principal;
+            border-color: $hover_border_color;
+            box-shadow: 25px 40px 10px 0px  $box_shadow_color;
         }
     }
 
@@ -100,10 +100,10 @@
 
 
 .funkoniza_mascotas{
-    background: #f1aaf1;
-    box-shadow: 25px 40px 0px 0px  #7a4c7a;;
+    background: $color_principal;
+    box-shadow: 25px 40px 0px 0px  $box_shadow_color;
     border-style: solid;
-    border-color: #bd5fbd;
+    border-color: $border_color;
     border-radius: 30px;
     width: 90%;
     height: 51%;
@@ -114,9 +114,9 @@
 
         &:hover{
 
-            background-color: #bd5fbd;
-            border-color: #f1aaf1;
-            box-shadow: 25px 40px 10px 0px  #7a4c7a;
+            background-color: $hover_color_principal;
+            border-color: $hover_border_color;
+            box-shadow: 25px 40px 10px 0px  $box_shadow_color;
         }
 }
 

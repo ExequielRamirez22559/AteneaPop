@@ -1,21 +1,20 @@
 .bg-body-tertiary {
-    background-color:#5cb4ca !important;
+    background-color:$color_fondoprincipal !important;
   }
 
 
 
 .navbar-brand{
     padding: 15px;
-    color:rgb(255, 255, 255);
-    font-family: 'Comfortaa';
-    font-family: 'MuseoModerno', cursive;
+    color:$color_de_fuentes;
+    font-family: $estilos_de_fuentes;
     text-shadow: 1px 1px #030303;
 
 }
 
 .navbar-brand:hover{
-    color: rgb(255, 255, 255);
-    background-color: #248299;
+    color: $color_de_fuentes;
+    background-color: $color_hover_navbar;
     border-radius: 30%;
 }
 
@@ -25,15 +24,14 @@
 
 .nav-link{
     padding: 15px;
-    color:rgb(255, 255, 255);
-    font-family: 'Comfortaa';
-    font-family: 'MuseoModerno', cursive;
+    color:$color_de_fuentes;
+    font-family: $estilos_de_fuentes;
     text-shadow: 1px 1px #753939;
 }
 
 .nav-link:hover{
-    color: rgb(255, 255, 255);
-    background-color: #248299;
+    color: $color_de_fuentes;
+    background-color: $color_hover_navbar;
     border-radius: 30%;
 }
 

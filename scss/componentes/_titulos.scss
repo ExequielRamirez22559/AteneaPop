@@ -1,60 +1,53 @@
 h1{
-    color:rgb(255, 255, 255) ;
+    color:$color_de_fuentes;
     
-    font-family: 'Comfortaa';
-    font-family: 'MuseoModerno', cursive;
+    font-family: $estilos_de_fuentes;
     font-size: 50px;
     text-align: center;
-    text-shadow: 5px 5px #753939;
+    text-shadow: 5px 5px $color_fuentes_shadow;
 }
 
 h2 {
-    color: rgb(255, 255, 255);
-    font-family: 'Comfortaa';
-    font-family: 'MuseoModerno', cursive;
+    color: $color_de_fuentes;
+    font-family:$estilos_de_fuentes;
     font-size: 70px;
-    text-shadow: 5px 7px #753939;
+    text-shadow: 5px 7px $color_fuentes_shadow;
 }
 
 h3{
-    color: rgb(255, 255, 255);
-    font-family: 'Comfortaa';
-    font-family: 'MuseoModerno', cursive;
+    color: $color_de_fuentes;
+    font-family: $estilos_de_fuentes;
     font-size: 25px;
-    text-shadow: 1px 1px #753939;
+    text-shadow: 1px 1px $color_fuentes_shadow;
 }
 
 h4{
     
-    font-family: 'Comfortaa';
-    font-family: 'MuseoModerno', cursive;
-    color:rgb(244, 244, 248);
+    font-family: $estilos_de_fuentes;
+    color:$color_de_fuentes;
     font-size: 20px;
     font-weight: 700;
-    text-shadow: 2px 2px #753939;
+    text-shadow: 2px 2px $color_fuentes_shadow;
 }
 
 p{
-    color: rgb(206, 203, 207);
-    font-family: 'Comfortaa';
-    font-family: 'MuseoModerno', cursive;
+    color: $color_de_fuentes;
+    font-family: $estilos_de_fuentes;
     font-size: 20px;
-    text-shadow: 1px 1px #753939;
+    text-shadow: 1px 1px $color_fuentes_shadow;
 }
 
 .principal_pagina{
-    font-family: 'Comfortaa';
-    font-family: 'MuseoModerno', cursive;
+    font-family: $estilos_de_fuentes;
     font-size: 90px;  
     text-align: center;
-    text-shadow: 10px 10px #753939;
+    text-shadow: 10px 10px $color_fuentes_shadow;
 }
 
 .principal_subtitulopagina{
     
-    font-family: 'Comfortaa';
-    font-family: 'MuseoModerno', cursive;
+    font-family: $estilos_de_fuentes;
     font-size: 30px;
     text-align: center;
-    text-shadow: 5px 05px #753939;
+    text-shadow: 5px 05px $color_fuentes_shadow;
 }

@@ -1,0 +1,31 @@
+.galeria_imagenes1{
+    padding-top: 50px ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 20px;
+
+    .contenedor_imagen{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+                h3{
+                    padding-top: 5px;
+                }
+
+
+                img{
+                    width: 450px;
+                    height: 450px;
+                    border-style: solid;
+                    border-color:  #080808;
+                    border-radius: 25px;
+                }
+        }
+
+
+}
